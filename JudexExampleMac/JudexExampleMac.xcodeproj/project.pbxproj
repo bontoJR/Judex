@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB8877D01E39F05C00314534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8877CF1E39F05C00314534 /* AppDelegate.swift */; };
+		CB8877D21E39F05C00314534 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8877D11E39F05C00314534 /* ViewController.swift */; };
+		CB8877D41E39F05C00314534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8877D31E39F05C00314534 /* Assets.xcassets */; };
+		CB8877D71E39F05D00314534 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8877D51E39F05D00314534 /* Main.storyboard */; };
+		CB8877ED1E39F8C000314534 /* JudexOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8877EC1E39F8C000314534 /* JudexOSX.framework */; };
+		CB8877EE1E39F8C000314534 /* JudexOSX.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB8877EC1E39F8C000314534 /* JudexOSX.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CB8877EF1E39F8C000314534 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CB8877EE1E39F8C000314534 /* JudexOSX.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CB8877CC1E39F05C00314534 /* JudexExampleMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JudexExampleMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB8877CF1E39F05C00314534 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB8877D11E39F05C00314534 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB8877D31E39F05C00314534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB8877D61E39F05D00314534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB8877D81E39F05D00314534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB8877EC1E39F8C000314534 /* JudexOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JudexOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB8877C91E39F05C00314534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8877ED1E39F8C000314534 /* JudexOSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB8877C31E39F05C00314534 = {
+			isa = PBXGroup;
+			children = (
+				CB8877EC1E39F8C000314534 /* JudexOSX.framework */,
+				CB8877CE1E39F05C00314534 /* JudexExampleMac */,
+				CB8877CD1E39F05C00314534 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB8877CD1E39F05C00314534 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB8877CC1E39F05C00314534 /* JudexExampleMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB8877CE1E39F05C00314534 /* JudexExampleMac */ = {
+			isa = PBXGroup;
+			children = (
+				CB8877CF1E39F05C00314534 /* AppDelegate.swift */,
+				CB8877D11E39F05C00314534 /* ViewController.swift */,
+				CB8877D31E39F05C00314534 /* Assets.xcassets */,
+				CB8877D51E39F05D00314534 /* Main.storyboard */,
+				CB8877D81E39F05D00314534 /* Info.plist */,
+			);
+			path = JudexExampleMac;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB8877CB1E39F05C00314534 /* JudexExampleMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB8877DB1E39F05D00314534 /* Build configuration list for PBXNativeTarget "JudexExampleMac" */;
+			buildPhases = (
+				CB8877C81E39F05C00314534 /* Sources */,
+				CB8877C91E39F05C00314534 /* Frameworks */,
+				CB8877CA1E39F05C00314534 /* Resources */,
+				CB8877EF1E39F8C000314534 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JudexExampleMac;
+			productName = JudexExampleMac;
+			productReference = CB8877CC1E39F05C00314534 /* JudexExampleMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB8877C41E39F05C00314534 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Bonto.ch;
+				TargetAttributes = {
+					CB8877CB1E39F05C00314534 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4BGYDQR2GQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CB8877C71E39F05C00314534 /* Build configuration list for PBXProject "JudexExampleMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB8877C31E39F05C00314534;
+			productRefGroup = CB8877CD1E39F05C00314534 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB8877CB1E39F05C00314534 /* JudexExampleMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB8877CA1E39F05C00314534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8877D41E39F05C00314534 /* Assets.xcassets in Resources */,
+				CB8877D71E39F05D00314534 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB8877C81E39F05C00314534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8877D21E39F05C00314534 /* ViewController.swift in Sources */,
+				CB8877D01E39F05C00314534 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB8877D51E39F05D00314534 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB8877D61E39F05D00314534 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB8877D91E39F05D00314534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB8877DA1E39F05D00314534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		CB8877DC1E39F05D00314534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4BGYDQR2GQ;
+				INFOPLIST_FILE = JudexExampleMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.bonto.JudexExampleMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CB8877DD1E39F05D00314534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4BGYDQR2GQ;
+				INFOPLIST_FILE = JudexExampleMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.bonto.JudexExampleMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB8877C71E39F05C00314534 /* Build configuration list for PBXProject "JudexExampleMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8877D91E39F05D00314534 /* Debug */,
+				CB8877DA1E39F05D00314534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB8877DB1E39F05D00314534 /* Build configuration list for PBXNativeTarget "JudexExampleMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8877DC1E39F05D00314534 /* Debug */,
+				CB8877DD1E39F05D00314534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB8877C41E39F05C00314534 /* Project object */;
+}

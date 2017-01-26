@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBFB9A0E1E388EE60095B619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFB9A0D1E388EE60095B619 /* AppDelegate.swift */; };
+		CBFB9A101E388EE60095B619 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFB9A0F1E388EE60095B619 /* ViewController.swift */; };
+		CBFB9A131E388EE60095B619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFB9A111E388EE60095B619 /* Main.storyboard */; };
+		CBFB9A151E388EE60095B619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFB9A141E388EE60095B619 /* Assets.xcassets */; };
+		CBFB9A181E388EE60095B619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFB9A161E388EE60095B619 /* LaunchScreen.storyboard */; };
+		CBFB9A301E388F390095B619 /* Judex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFB9A2B1E388F2B0095B619 /* Judex.framework */; };
+		CBFB9A351E38E4700095B619 /* Judex.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CBFB9A2B1E388F2B0095B619 /* Judex.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBFB9A2A1E388F2B0095B619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBFB9A251E388F2B0095B619 /* Judex.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CBFB99E71E388E300095B619;
+			remoteInfo = Judex;
+		};
+		CBFB9A2C1E388F2B0095B619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBFB9A251E388F2B0095B619 /* Judex.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CBFB99F01E388E310095B619;
+			remoteInfo = JudexTests;
+		};
+		CBFB9A2E1E388F340095B619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBFB9A251E388F2B0095B619 /* Judex.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CBFB99E61E388E300095B619;
+			remoteInfo = Judex;
+		};
+		CBFB9A361E38E4700095B619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBFB9A251E388F2B0095B619 /* Judex.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CBFB99E61E388E300095B619;
+			remoteInfo = Judex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CBFB9A381E38E4700095B619 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CBFB9A351E38E4700095B619 /* Judex.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CBFB9A0A1E388EE60095B619 /* JudexExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JudexExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBFB9A0D1E388EE60095B619 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBFB9A0F1E388EE60095B619 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBFB9A121E388EE60095B619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBFB9A141E388EE60095B619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBFB9A171E388EE60095B619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBFB9A191E388EE60095B619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBFB9A251E388F2B0095B619 /* Judex.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Judex.xcodeproj; path = ../Judex.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBFB9A071E388EE60095B619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFB9A301E388F390095B619 /* Judex.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBFB9A011E388EE60095B619 = {
+			isa = PBXGroup;
+			children = (
+				CBFB9A251E388F2B0095B619 /* Judex.xcodeproj */,
+				CBFB9A0C1E388EE60095B619 /* JudexExample */,
+				CBFB9A0B1E388EE60095B619 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBFB9A0B1E388EE60095B619 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBFB9A0A1E388EE60095B619 /* JudexExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBFB9A0C1E388EE60095B619 /* JudexExample */ = {
+			isa = PBXGroup;
+			children = (
+				CBFB9A0D1E388EE60095B619 /* AppDelegate.swift */,
+				CBFB9A0F1E388EE60095B619 /* ViewController.swift */,
+				CBFB9A111E388EE60095B619 /* Main.storyboard */,
+				CBFB9A141E388EE60095B619 /* Assets.xcassets */,
+				CBFB9A161E388EE60095B619 /* LaunchScreen.storyboard */,
+				CBFB9A191E388EE60095B619 /* Info.plist */,
+			);
+			path = JudexExample;
+			sourceTree = "<group>";
+		};
+		CBFB9A261E388F2B0095B619 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBFB9A2B1E388F2B0095B619 /* Judex.framework */,
+				CBFB9A2D1E388F2B0095B619 /* JudexTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBFB9A091E388EE60095B619 /* JudexExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBFB9A1C1E388EE60095B619 /* Build configuration list for PBXNativeTarget "JudexExample" */;
+			buildPhases = (
+				CBFB9A061E388EE60095B619 /* Sources */,
+				CBFB9A071E388EE60095B619 /* Frameworks */,
+				CBFB9A081E388EE60095B619 /* Resources */,
+				CBFB9A381E38E4700095B619 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBFB9A2F1E388F340095B619 /* PBXTargetDependency */,
+				CBFB9A371E38E4700095B619 /* PBXTargetDependency */,
+			);
+			name = JudexExample;
+			productName = JudexExample;
+			productReference = CBFB9A0A1E388EE60095B619 /* JudexExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBFB9A021E388EE60095B619 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Bonto.ch;
+				TargetAttributes = {
+					CBFB9A091E388EE60095B619 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4BGYDQR2GQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CBFB9A051E388EE60095B619 /* Build configuration list for PBXProject "JudexExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBFB9A011E388EE60095B619;
+			productRefGroup = CBFB9A0B1E388EE60095B619 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CBFB9A261E388F2B0095B619 /* Products */;
+					ProjectRef = CBFB9A251E388F2B0095B619 /* Judex.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CBFB9A091E388EE60095B619 /* JudexExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CBFB9A2B1E388F2B0095B619 /* Judex.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Judex.framework;
+			remoteRef = CBFB9A2A1E388F2B0095B619 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CBFB9A2D1E388F2B0095B619 /* JudexTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = JudexTests.xctest;
+			remoteRef = CBFB9A2C1E388F2B0095B619 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBFB9A081E388EE60095B619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFB9A181E388EE60095B619 /* LaunchScreen.storyboard in Resources */,
+				CBFB9A151E388EE60095B619 /* Assets.xcassets in Resources */,
+				CBFB9A131E388EE60095B619 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBFB9A061E388EE60095B619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFB9A101E388EE60095B619 /* ViewController.swift in Sources */,
+				CBFB9A0E1E388EE60095B619 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBFB9A2F1E388F340095B619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Judex;
+			targetProxy = CBFB9A2E1E388F340095B619 /* PBXContainerItemProxy */;
+		};
+		CBFB9A371E38E4700095B619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Judex;
+			targetProxy = CBFB9A361E38E4700095B619 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBFB9A111E388EE60095B619 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBFB9A121E388EE60095B619 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBFB9A161E388EE60095B619 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBFB9A171E388EE60095B619 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBFB9A1A1E388EE60095B619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBFB9A1B1E388EE60095B619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBFB9A1D1E388EE60095B619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4BGYDQR2GQ;
+				INFOPLIST_FILE = JudexExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.bonto.JudexExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CBFB9A1E1E388EE60095B619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4BGYDQR2GQ;
+				INFOPLIST_FILE = JudexExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.bonto.JudexExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBFB9A051E388EE60095B619 /* Build configuration list for PBXProject "JudexExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFB9A1A1E388EE60095B619 /* Debug */,
+				CBFB9A1B1E388EE60095B619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBFB9A1C1E388EE60095B619 /* Build configuration list for PBXNativeTarget "JudexExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFB9A1D1E388EE60095B619 /* Debug */,
+				CBFB9A1E1E388EE60095B619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBFB9A021E388EE60095B619 /* Project object */;
+}
