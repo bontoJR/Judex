@@ -478,20 +478,20 @@ public class Judex {
 #endif
     }
     
-    private func remindLater() {
+    public func remindLater() {
         lastReminder = Date()
         declinedVersion = applicationVersion
         NotificationCenter.default.post(name: JudexUserAskedReminder, object: nil)
         isAlertOnScreen = false
     }
     
-    private func decline() {
+    public func decline() {
         declined = true
         NotificationCenter.default.post(name: JudexUserDeclined, object: nil)
         isAlertOnScreen = false
     }
     
-    private func rate() {
+    public func rate() {
         ratedVersion = applicationVersion
         openRatingsInAppStore()
         NotificationCenter.default.post(name: JudexUserRated, object: nil)
